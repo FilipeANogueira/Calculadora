@@ -9,4 +9,3 @@ class factory():
         button = tk.Button(root, text=f"{text}", relief=FLAT, bg=bg, command=function)
         button.grid(row=row, column=column)
         button.config(padx=25, pady=20)
-
